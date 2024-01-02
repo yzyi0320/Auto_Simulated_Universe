@@ -100,7 +100,7 @@ class My_TS:
             if find == 0:
                 rcx,rcy,find,text_res = cx,cy,1,self.text+';'
             res+='|'+self.text
-            if (self.sim('回归不等式') and bless_skip) or self.sim_list(['银河大乐透','普通八卦','愚者面具','机械齿轮']) is not None:
+            if (self.sim('回归不等式') and bless_skip) or self.sim_list(['银河大乐透','普通八卦','愚者面具']) is not None:
                 black = 1
                 res+='x'
                 continue
