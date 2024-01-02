@@ -537,7 +537,7 @@ class SimulatedUniverse(UniverseUtils):
             if self.multi == 1.01:
                 align_angle(0, 1, [1], self)
             self.get_screen()
-            if self.floor > 0 and self.check("ruan",0.0625,0.7065) and not self.check("U", 0.0240,0.7759):
+            if self.floor > -1 and self.check("ruan",0.0625,0.7065) and not self.check("U", 0.0240,0.7759):
                 self.press('e')
                 time.sleep(1.5)
                 self.get_screen()
