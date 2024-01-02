@@ -191,7 +191,7 @@ key_mapping:
 #地图
   - m
 #奔跑
-  - shift
+  - capslock
 #自动战斗
   - v
 #秘技
